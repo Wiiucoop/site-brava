@@ -50,12 +50,12 @@
 .u-section-1 .u-image-3 {
   width: 658px;
   height: 288px;
-  margin: -209px 0 0 auto;
+  margin: -182px 0 0 auto;
 }
 
 .u-section-1 .u-text-2 {
   font-size: 1.875rem;
-  margin: -79px 147px 0 111px;
+  margin: -107px 147px 0 111px;
 }
 
 @media (max-width: 1199px) {
@@ -154,7 +154,7 @@
 
   .u-section-1 .u-group-1 {
     margin-top: 33px;
-    min-height: 435px;
+    min-height: 434px;
   }
 
   .u-section-1 .u-text-1 {
@@ -167,12 +167,12 @@
   .u-section-1 .u-image-3 {
     width: 317px;
     height: 138px;
-    margin-top: -175px;
-    margin-right: -65px;
+    margin-top: -118px;
+    margin-right: -67px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-top: 40px;
+    margin-top: -17px;
     margin-right: -67px;
     margin-left: 67px;
   }
@@ -636,11 +636,12 @@
   }
 
   .u-section-4 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 1140px;
   }
 
   .u-section-4 .u-image-1 {
-    margin-left: 18px;
+    margin-top: 205px;
+    margin-left: 0;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -653,6 +654,10 @@
     min-height: 360px;
   }
 
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
   .u-section-4 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -662,12 +667,23 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 810px;
+  }
+
+  .u-section-4 .u-image-1 {
+    margin-top: 107px;
+    margin-left: auto;
+  }
 } .u-section-5 {
   background-image: none;
 }
 
 .u-section-5 .u-sheet-1 {
-  min-height: 1150px;
+  min-height: 1298px;
 }
 
 .u-section-5 .u-text-1 {
@@ -686,17 +702,17 @@
 
 .u-section-5 .u-layout-wrap-1 {
   width: 974px;
-  margin: -347px auto 60px;
+  margin: -347px auto 31px;
 }
 
 .u-section-5 .u-image-1 {
-  min-height: 601px;
+  min-height: 492px;
   background-image: url("images/basculante21.jpeg");
   background-position: 62.15% 50%;
 }
 
 .u-section-5 .u-image-2 {
-  min-height: 601px;
+  min-height: 492px;
   background-image: url("images/WhatsAppImage2024-03-11at8.55.17PM.jpeg");
 }
 
@@ -705,7 +721,7 @@
 }
 
 .u-section-5 .u-layout-cell-3 {
-  min-height: 413px;
+  min-height: 492px;
 }
 
 .u-section-5 .u-container-layout-3 {
@@ -713,41 +729,10 @@
 }
 
 .u-section-5 .u-text-2 {
-  text-transform: none;
-  font-weight: 600;
-  text-decoration: underline !important;
-  margin: 0;
-}
-
-.u-section-5 .u-text-3 {
   font-style: italic;
   line-height: 1.8;
-  font-size: 1.875rem;
-  margin: 20px 0 0;
-}
-
-.u-section-5 .u-layout-cell-4 {
-  min-height: 413px;
-}
-
-.u-section-5 .u-container-layout-4 {
-  padding-left: 0;
-  padding-right: 30px;
-}
-
-.u-section-5 .u-text-4 {
-  text-transform: none;
-  font-weight: 600;
-  font-size: 1.875rem;
-  text-decoration: underline !important;
+  font-size: 2.25rem;
   margin: 0;
-}
-
-.u-section-5 .u-text-5 {
-  line-height: 2;
-  font-size: 1.875rem;
-  font-style: italic;
-  margin: 20px 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -766,19 +751,15 @@
   }
 
   .u-section-5 .u-image-1 {
-    min-height: 580px;
+    min-height: 474px;
   }
 
   .u-section-5 .u-image-2 {
-    min-height: 580px;
+    min-height: 474px;
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 399px;
-  }
-
-  .u-section-5 .u-layout-cell-4 {
-    min-height: 399px;
+    min-height: 474px;
   }
 }
 
@@ -796,14 +777,10 @@
   }
 
   .u-section-5 .u-image-2 {
-    min-height: 444px;
+    min-height: 363px;
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 353px;
-  }
-
-  .u-section-5 .u-layout-cell-4 {
     min-height: 353px;
   }
 }
@@ -827,15 +804,11 @@
   }
 
   .u-section-5 .u-image-2 {
-    min-height: 666px;
+    min-height: 545px;
   }
 
   .u-section-5 .u-layout-cell-3 {
     min-height: 250px;
-  }
-
-  .u-section-5 .u-container-layout-4 {
-    padding-right: 10px;
   }
 }
 
@@ -863,7 +836,7 @@
   }
 
   .u-section-5 .u-image-2 {
-    min-height: 419px;
+    min-height: 343px;
   }
 
   .u-section-5 .u-layout-cell-3 {
@@ -1445,7 +1418,8 @@
 
   .u-section-8 .u-group-1 {
     width: 394px;
-    margin-right: 124px;
+    min-height: 620px;
+    margin-right: auto;
   }
 
   .u-section-8 .u-container-layout-1 {
@@ -1465,8 +1439,6 @@
 
   .u-section-8 .u-group-1 {
     width: 362px;
-    min-height: 620px;
-    margin-right: auto;
   }
 
   .u-section-8 .u-container-layout-1 {
@@ -1699,12 +1671,10 @@
     margin-right: 0;
   }
 
-  .u-section-9 .u-btn-2 {
-    margin-top: 0;
-  }
-
   .u-section-9 .u-btn-3 {
     margin-left: -35px;
     margin-right: -35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
