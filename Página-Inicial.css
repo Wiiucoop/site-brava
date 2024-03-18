@@ -357,6 +357,7 @@
   }
 
   .u-section-2 .u-text-2 {
+    width: auto;
     margin-top: 80px;
     margin-left: 10px;
     margin-right: 10px;
@@ -662,6 +663,10 @@
   .u-section-4 .u-image-1 {
     margin-top: 107px;
     margin-left: auto;
+  }
+
+  .u-section-4 .u-text-2 {
+    width: auto;
   }
 } .u-section-5 {
   background-image: none;
